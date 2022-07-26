@@ -4,17 +4,12 @@
 * This code was developed by:
 * Audox Ingeniería SpA.
 * website: www.audox.com
-* email: info@audox.cl
+* email: info@audox.com
 ######################### */
 
 include 'auth.php';
 
 function getRecords($object, $params){
-
-    if($object == "deals"){
-        $params['properties'] = "dealname,amount,closedate,dealstage,pipeline,hubspot_owner_id";
-        $params['associations'] = "companies";
-    }
 
     $hubspot_key = $params['hapikey'];
     unset($params['hapikey']);
@@ -70,6 +65,9 @@ $params = array(
     "hapikey" => $_REQUEST['hapikey'],
     "limit" => $_REQUEST['limit'],
 );
+
+if(isset($_REQUEST['properties'])) $params['properties'] = $_REQUEST['properties'];
+if(isset($_REQUEST['associations'])) $params['associations'] = $_REQUEST['associations'];
 
 if($_REQUEST["action"] == "getRecords") $result = getRecords($_REQUEST['object'], $params);
 
