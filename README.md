@@ -25,5 +25,8 @@ This connector might be limited due to HubSpot API rate limitations.
 
 ## Contact Us:
 
-- www.audox.com
 - info@audox.com
+- www.audox.com
+- www.audox.mx
+- www.audox.es
+- www.audox.cl
