@@ -68,6 +68,7 @@ $params = array(
 
 if(isset($_REQUEST['properties'])) $params['properties'] = $_REQUEST['properties'];
 if(isset($_REQUEST['associations'])) $params['associations'] = $_REQUEST['associations'];
+if(isset($_REQUEST['archived'])) $params['archived'] = $_REQUEST['archived'];
 
 if($_REQUEST["action"] == "getRecords") $result = getRecords($_REQUEST['object'], $params);
 
