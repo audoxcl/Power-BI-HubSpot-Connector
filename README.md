@@ -10,7 +10,7 @@ This connector can also be used to extract data from HubSpot with any other purp
 
 1. Copy files to your server so you can access it via url like:
 https://yourdomain.com/Power-BI-HubSpot-Connector/index.php
-2. Edit file auth.php to restrict access to this connector giving authorization only to valid tokens
+2. Edit tokens in auth function to restrict access to this connector giving authorization only to valid tokens
 3. Start your Power BI report using our template available at:
 https://github.com/audoxcl/Power-BI-Examples/blob/main/HubSpot.pbix
 
