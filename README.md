@@ -21,6 +21,10 @@ In Power BI Desktop you should set all these parameters (in the Power Query Edit
 3. **hapikey_token:** the token to access HubSpot data. To create a token you have to create first a Private App at Settings -> Integrations -> 'Private Apps'.
 4. **account_id:** the id used in Power BI report to create the url link to each record inside your HubSpot account. The account id is located in your HubSpot account in the popup window once you click on your avatar image top right.
 
+### Detailed Instructions
+
+https://www.audox.com/tools/power-bi-hubspot-connector/
+
 ### YouTube Playlist Tutorials
 
 https://www.youtube.com/playlist?list=PLI3w6pdNV1sR3foUBnwl15rU_uthKkjS8
