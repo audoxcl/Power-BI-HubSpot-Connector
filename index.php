@@ -163,6 +163,9 @@ function main(array $args) {
     return isset($args['http']['headers']) ? ["body" => $result] : print($result);
 }
 
+header('Content-Type: application/json');
+http_response_code(200);
+
 // Call the main function with the request arguments ($_REQUEST) as input
 main($_REQUEST);
 
