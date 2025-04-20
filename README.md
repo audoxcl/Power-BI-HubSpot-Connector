@@ -34,6 +34,12 @@ https://www.youtube.com/playlist?list=PLI3w6pdNV1sR3foUBnwl15rU_uthKkjS8
 
 This connector might be limited due to HubSpot API rate limitations.
 
+## Paid Version
+
+Don't want to struggle with installation and updates?
+You can consider our paid version here:
+https://rapidapi.com/audox-ingenieria-spa-audox-ingenieria-spa-default/api/power-bi-hubspot-connector/pricing
+
 ## Contact Us:
 
 - info@audox.com
